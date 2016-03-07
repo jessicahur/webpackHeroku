@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "gulp testing",
-    "start": "eval $(cat .env) nodemon index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
