@@ -30927,7 +30927,7 @@
 /* 16 */
 /***/ function(module, exports) {
 
-	module.exports = "<div>\n  <div>\n    <button class=\"panel-bar\" ng-click=\"showAbout()\"><a>ABOUT US</a></button>\n    <about-us ng-show=\"aboutShow\"></about-us>\n  </div>\n  <div>\n    <button class=\"panel-bar\" ng-click=\"showAgents()\"><a>OUR TALENTED AGENTS</a></button>\n    <our-employees agents=\"agents\" ng-show=\"agentsShow\"></our-employees>\n  </div>\n  <div>\n    <button class=\"panel-bar\" ng-click=\"showLocations()\"><a>OUR LOCATIONS</a></button>\n    <locations ng-show=\"locationsShow\"></locations>\n  </div>\n  <div>\n    <button class=\"panel-bar\" ng-click=\"showEvents()\"><a>EVENTS</a></button>\n    <p ng-show=\"eventsShow\">No event to show yet. Please check back later.</p>\n  </div>\n</div>\n";
+	module.exports = "<div>\n  <div>\n    <button class=\"panel-bar\" ng-click=\"showAbout()\"><a>ABOUT US</a></button>\n    <about-us ng-show=\"aboutShow\"></about-us>\n  </div>\n<!--   <div>\n    <button class=\"panel-bar\" ng-click=\"showAgents()\"><a>OUR TALENTED AGENTS</a></button>\n    <our-employees agents=\"agents\" ng-show=\"agentsShow\"></our-employees>\n  </div> -->\n  <div>\n    <button class=\"panel-bar\" ng-click=\"showLocations()\"><a>OUR LOCATIONS</a></button>\n    <locations ng-show=\"locationsShow\"></locations>\n  </div>\n  <div>\n    <button class=\"panel-bar\" ng-click=\"showEvents()\"><a>EVENTS</a></button>\n    <p ng-show=\"eventsShow\">No event to show yet. Please check back later.</p>\n  </div>\n</div>\n";
 
 /***/ },
 /* 17 */
@@ -30961,7 +30961,7 @@
 /* 18 */
 /***/ function(module, exports) {
 
-	module.exports = "<div>\n  <uib-tabset active=\"activeJustified\" justified=\"true\">\n    <uib-tab index=\"0\" heading=\"About Us\">\n      <about-us></about-us>\n    </uib-tab>\n    <uib-tab index=\"1\" heading=\"Our Talented Agents\">\n       <our-employees agents=\"agents\"></our-employees>\n    </uib-tab>\n    <uib-tab index=\"2\" heading=\"Locations\">\n      <locations></locations>\n    </uib-tab>\n    <uib-tab index=\"3\" heading=\"Events\">\n      <p>No event to show. Please check back later.</p>\n    </uib-tab>\n  </uib-tabset>\n</div>\n";
+	module.exports = "<div>\n  <uib-tabset active=\"activeJustified\" justified=\"true\">\n    <uib-tab index=\"0\" heading=\"About Us\">\n      <about-us></about-us>\n    </uib-tab>\n    <uib-tab index=\"1\" heading=\"Locations\">\n      <locations></locations>\n    </uib-tab>\n    <uib-tab index=\"2\" heading=\"Events\">\n      <p>No event to show. Please check back later.</p>\n    </uib-tab>\n  </uib-tabset>\n</div>\n";
 
 /***/ },
 /* 19 */
@@ -47016,7 +47016,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);", ""]);
 	
 	// module
-	exports.push([module.id, "/***************************\n* Media Queries:           *\n***************************/\n\n/***************************\n* Border Radius            *\n***************************/\n\n* {\n  font-family: 'Source Sans Pro', sans-serif;\n  font-size: 16px;\n  padding: 5px 0;\n}\n\nfooter {\n  width: 100%;\n  background-color: #888;\n  text-align: center;\n}\n\n@media only screen and (max-width: 767px) {\n  .nonmobile {\n    display: none;\n  }\n}\n\n@media only screen and (min-width: 768px) {\n  .mobile {\n    display: none;\n  }\n}\n\n/***************************\n* Media Queries:           *\n***************************/\n\n/***************************\n* Border Radius            *\n***************************/\n\n/******SCREEN <= 767PX******/\n\n@media only screen and (max-width: 767px) {\n  .header {\n    height: 40vw;\n  }\n}\n\n/******SCREEN <= 992PX******/\n\n/******SCREEN <= 1200PX******/\n\n/***************************\n* Media Queries:           *\n***************************/\n\n/***************************\n* Border Radius            *\n***************************/\n\n/******SCREEN <= 767PX******/\n\n@media only screen and (max-width: 767px) {\n  .navbar,\n  .navbar-inner > .container {\n    margin-bottom: 0;\n    padding: 5px 0;\n  }\n\n  .navbar-inner > .container {\n    padding: 5px 10px;\n  }\n\n  .panel-bar {\n    width: 100%;\n    height: 10vh;\n    padding: 10px;\n    border: 1px solid;\n    font-weight: bold;\n    text-align: center;\n    -webkit-border-radius: 5px;\n    -moz-border-radius: 5px;\n    -ms-border-radius: 5px;\n    border-radius: 5px;\n  }\n\n  .panel-bar a {\n    vertical-align: middle;\n    color: #fff;\n  }\n}\n\n/***************************\n* Media Queries:           *\n***************************/\n\n/***************************\n* Border Radius            *\n***************************/\n\n.section {\n  border-top: 1px solid #afafaf;\n  border-bottom: 1px solid #afafaf;\n}\n\n/******SCREEN <= 768PX******/\n\n@media only screen and (max-width: 767px) {\n  .header {\n    background: url(" + __webpack_require__(53) + ") center;\n    background-size: cover;\n    color: #fcfaf8;\n    font-family: 'Dancing Script', cursive;\n  }\n\n  .header h1 {\n    font-size: 50px;\n  }\n\n  .panel-bar {\n    box-shadow: 2px 2px 2px #888;\n  }\n}\n\n@media only screen and (min-width: 768px) {\n  .header h1 {\n    margin: 0;\n  }\n\n  .header h4 {\n    font-style: italic;\n  }\n\n  #header-image {\n    height: 60vh;\n    background-image: url(" + __webpack_require__(53) + ");\n    background-size: cover;\n  }\n}\n\n", ""]);
+	exports.push([module.id, "/***************************\n* Media Queries:           *\n***************************/\n\n/***************************\n* Border Radius            *\n***************************/\n\n* {\n  font-family: 'Source Sans Pro', sans-serif;\n  font-size: 16px;\n  padding: 5px 0;\n}\n\nfooter {\n  width: 100%;\n  background-color: #888;\n  text-align: center;\n}\n\n@media only screen and (max-width: 767px) {\n  .nonmobile {\n    display: none;\n  }\n}\n\n@media only screen and (min-width: 768px) {\n  .mobile {\n    display: none;\n  }\n}\n\n/***************************\n* Media Queries:           *\n***************************/\n\n/***************************\n* Border Radius            *\n***************************/\n\n/******SCREEN <= 767PX******/\n\n@media only screen and (max-width: 767px) {\n  .header {\n    height: 40vw;\n  }\n}\n\n/******SCREEN <= 992PX******/\n\n/******SCREEN <= 1200PX******/\n\n/***************************\n* Media Queries:           *\n***************************/\n\n/***************************\n* Border Radius            *\n***************************/\n\n/******SCREEN <= 767PX******/\n\n@media only screen and (max-width: 767px) {\n  .navbar {\n    margin-bottom: 0;\n    padding: 5px 0;\n  }\n\n  .navbar-inner > .container {\n    padding: 5px 10px;\n  }\n\n  .panel-bar {\n    width: 100%;\n    height: 10vh;\n    padding: 10px;\n    border: 1px solid;\n    font-weight: bold;\n    text-align: center;\n    -webkit-border-radius: 5px;\n    -moz-border-radius: 5px;\n    -ms-border-radius: 5px;\n    border-radius: 5px;\n  }\n\n  .panel-bar a {\n    vertical-align: middle;\n    color: #fff;\n  }\n}\n\n/***************************\n* Media Queries:           *\n***************************/\n\n/***************************\n* Border Radius            *\n***************************/\n\n.section {\n  border-top: 1px solid #afafaf;\n  border-bottom: 1px solid #afafaf;\n}\n\n/******SCREEN <= 768PX******/\n\n@media only screen and (max-width: 767px) {\n  .header {\n    background: url(" + __webpack_require__(53) + ") center;\n    background-size: cover;\n    color: #fcfaf8;\n    font-family: 'Dancing Script', cursive;\n  }\n\n  .header h1 {\n    font-size: 50px;\n  }\n\n  .panel-bar {\n    box-shadow: 2px 2px 2px #888;\n  }\n}\n\n@media only screen and (min-width: 768px) {\n  .header h1 {\n    margin: 0;\n  }\n\n  .header h4 {\n    font-style: italic;\n  }\n\n  #header-image {\n    height: 60vh;\n    background-image: url(" + __webpack_require__(53) + ");\n    background-size: cover;\n  }\n}\n\n", ""]);
 	
 	// exports
 
@@ -47061,19 +47061,19 @@
 	        controller: _mobileViewCtrl2.default
 	      },
 	      nonmobile: {
-	        template: '<hpview-nonmobile/>',
-	        controller: function controller($scope, agents) {
-	          $scope.agents = agents;
-	        }
-	      }
-	    },
-	    resolve: {
-	      agents: function agents(employeeService) {
-	        return employeeService.query().$promise;
+	        template: '<hpview-nonmobile/>'
+	        // controller: function($scope, agents) {
+	        //   $scope.agents = agents;
+	        // }
 	      }
 	    }
+	  }). // resolve: {
+	  //   agents( employeeService ) {
+	  //     return employeeService.query().$promise;
+	  //   }
+	  // },
 	
-	  }).state('employees', {
+	  state('employees', {
 	    url: '/employees',
 	    data: {
 	      requireAuth: true
@@ -47096,7 +47096,7 @@
 	  value: true
 	});
 	
-	exports.default = function ($scope, agents) {
+	exports.default = function ($scope) {
 	  //show-hide About Us section
 	  $scope.aboutShow = false;
 	  $scope.showAbout = function () {
@@ -47104,7 +47104,6 @@
 	  };
 	  //show-hide Agents
 	  $scope.agentsShow = false;
-	  $scope.agents = agents;
 	  $scope.showAgents = function () {
 	    $scope.agentsShow = !$scope.agentsShow;
 	  };
